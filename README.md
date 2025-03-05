@@ -24,3 +24,4 @@ si es mayor de 12 valdrá 10 euros
 
 y si es mayor de 18 el precio sera completo 
 ![alt text](image-6.png)
+

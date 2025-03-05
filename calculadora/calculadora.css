@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #calculadora {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  #visor {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  table {
+    width: 100%;
+    border-spacing: 10px; 
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  input[type="button"] {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: transform 0.2s, opacity 0.2s; 
+  }
+  
+  .numero {
+    background-color: #4caf50;
+  }
+  
+  .limpar {
+    background-color: #f44336;
+  }
+  
+  .botaoAux {
+    background-color: #ff9800;
+  }
+  
+  .divisao, .multiplicacao, .subtracao, .soma, .igual {
+    background-color: #2196f3;
+  }
+  
+  input[type="button"]:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
